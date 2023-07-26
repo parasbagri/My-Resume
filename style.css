@@ -12,6 +12,10 @@ body,html{
    height: 100vh;
    overflow-x: hidden;
    overflow-y: auto;
+} 
+.namaskaram{
+   /* display: none; */
+   opacity: 0;
 }
 .container{
   /* border: 2px solid black; */
@@ -118,7 +122,112 @@ img{
 .ground{
    background-color: grey;
 } 
- 
+
+
+@media screen and (min-width: 320px) and (max-width:480px)
+{
+   .ground img{
+       width: 100px;
+       margin-left: 190px;
+   } 
+   .social_platforms h1{
+       text-align: center;
+   }  
+   .social_platforms h3{
+     text-align: center;
+   }
+   .social_platforms{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    
+    /* border: 2px solid black; */
+     
+   }  
+   .asider{
+     border: 1px solid black;
+     padding: 5px 7px ;
+   } 
+   .email{
+       font-size:12px;
+   }
+   .container{
+    display: flex;
+    gap: 13px;
+    width: 100%;
+    height: 600px;
+    margin: 0 5px 0 5px;
+    padding: 5px 1px 0 1px;
+   } 
+   .Profile{
+     font-size: 14px;
+     text-align: justify;
+    
+   } 
+   .bgcolor{
+     width: 215px;
+     padding: 20px ;
+     font-size: 14px;
+     margin-top: 40px;
+     border-radius: 5px 60px;
+     margin-left: -5px;
+   } 
+   #education{
+     margin-top: 80px;
+     background-color: rgba(0, 0, 0,0.6);
+     color: white;
+     box-shadow: 
+     inset 0 -1em 1em rgba(0, 0, 0, 0.1),
+     2px 1px 1px 5px rgb(209, 206, 206),
+     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+   }  
+   .right-side-part{
+     width: 200px;
+     margin-top: -20px;
+     
+   }
+   .projects{ 
+    padding: 2px 5px;
+    text-align: justify;
+     font-size: 14px;
+     width: 100%;
+   } 
+   .margin-same{
+    margin-bottom: 10px;
+   } 
+   .project-2{
+    padding: 2px 5px;
+    text-align: justify;
+     font-size: 14px;
+     width: 100%;
+   } 
+   .project-3
+   {
+    padding: 2px 5px;
+    text-align: justify;
+     font-size: 14px;
+     width: 100%;
+   } 
+   .skills{
+    padding: 2px 5px;
+    text-align: justify;
+     font-size: 14px;
+     width: 100%;
+     margin-top: 30px;
+     
+   } 
+   .interests{
+    position: relative;
+    right: 220px;
+    bottom: 254px;
+    padding: 2px 5px;
+    text-align: justify;
+     font-size: 14px;
+     width: 100%;
+   } 
+    
+}
 
 @media screen and (min-width: 480px) and (max-width:768px)
 {
@@ -179,7 +288,7 @@ img{
     .bgcolor{
        width: 270px;
     }
-
+    
 }
  
 
