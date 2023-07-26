@@ -6,6 +6,10 @@
    padding: 0;
    box-sizing: border-box;
    font-family: 'Poppins', sans-serif;
+} 
+.certi{
+  color: blue;
+  font-weight: 700;
 }
 body,html{
    width: 100vw;
@@ -192,7 +196,8 @@ img{
     text-align: justify;
      font-size: 14px;
      width: 100%;
-   } 
+   }  
+   
    .margin-same{
     margin-bottom: 10px;
    } 
